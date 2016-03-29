@@ -216,10 +216,18 @@ __________*/
 .section-form .bootstrap-select > .dropdown-toggle:hover,
 .section-form .bootstrap-select > .dropdown-toggle:focus,
 .section-form .bootstrap-select > .dropdown-toggle:active{
-    background: #bdc3c7;
+    background: #ffffff;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    outline: none;
+    border-color: #816fca;
+}
+.section-form .btn-default:active,
+.section-form .btn-default.active,
+.section-form .open > .dropdown-toggle.btn-default{
+    background: #ffffff;
+    border-color: #816fca;
 }
 .section-form .checkboxes{
     margin-top: 25px;
@@ -515,11 +523,21 @@ __________*/
 }
 .photos .slider-for .slick-slide{
     border-top-left-radius: 4px;
+    position: relative;
+    height: 400px;
     overflow: hidden;
 }
 .photos .slider-for img{
-    height: auto;
-    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    height: 400px;
+    width: auto;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
 }
 .photos .slider-nav{
     padding: 0 10px;

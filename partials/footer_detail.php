@@ -89,8 +89,7 @@
             slidesToScroll: 1,
             fade: true,
             asNavFor: '.slider-nav',
-            arrows: false,
-            infinite: true
+            arrows: false
         });
         $('.slider-nav').slick({
             slidesToShow: 4,
@@ -98,8 +97,7 @@
             asNavFor: '.slider-for',
             centerMode: true,
             focusOnSelect: true,
-            variableWidth: true,
-            infinite: true
+            variableWidth: true
         });
     });
 </script>

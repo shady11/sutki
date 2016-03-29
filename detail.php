@@ -45,32 +45,8 @@ include("partials/nav.php");
                                     <div>
                                         <img src="images/item.jpg" alt=""/>
                                     </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
                                 </div>
                                 <div class="slider-nav">
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src="images/item.jpg" alt=""/>
-                                    </div>
                                     <div>
                                         <img src="images/item.jpg" alt=""/>
                                     </div>
